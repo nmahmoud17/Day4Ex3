@@ -46,11 +46,11 @@ public class Main {
                 System.out.println("End 1");
                 System.out.println("\n");
                 System.out.println("Would you like to play again?");
-                answer = reader.next();
-                if (answer.equals("Y")) {
+            }
+            answer = reader.next();
+            if (answer.equals("Y")) {
                     System.out.println("Make better choices next time.");
                     playAgain = true;
-                }
             } else {
                 System.out.println("Game Over");
                 playAgain = false;
@@ -62,14 +62,15 @@ public class Main {
                 System.out.println("Would you like to play again?");
                 answer = reader.next();
                 if (answer.equals("Y")) {
+                    System.out.println("Make better choices next time.");
                     playAgain = true;
-                } else {
+                }
+            } else {
                     System.out.println("Game Over");
                     playAgain = false;
-                }
             }
 
-//            inputFromUser = reader.next();
+
 //            if (inputFromUser.equals("Option2")) {
 //                System.out.println("End 2");
 //                System.out.println("\n");
@@ -78,10 +79,10 @@ public class Main {
 //                if (answer.equals("Y")) {
 //                    System.out.println("Make better choices next time.");
 //                    playAgain = true;
+//                } else {
+//                    System.out.println("Game Over");
+//                    playAgain = false;
 //                }
-//            } else {
-//                System.out.println("Game Over");
-//                playAgain = false;
 //            }
 //
 //            inputFromUser = reader.next();
